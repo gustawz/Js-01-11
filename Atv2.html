@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alterar Cor com Botões de Rádio</title>
+</head>
+
+<body>
+    <h1>
+        <center>Escolha a Cor de Fundo</center>
+    </h1>
+    <div>
+        <center>
+            <input type="radio" name="color" onclick="changeBackgroundColor('blue')"> Azul
+            <input type="radio" name="color" onclick="changeBackgroundColor('red')"> Vermelho
+            <input type="radio" name="color" onclick="changeBackgroundColor('green')"> Verde
+            <input type="radio" name="color" onclick="changeBackgroundColor('yellow')"> Amarelo
+            <input type="radio" name="color" onclick="changeBackgroundColor('#FFD700')"> Amarelo Ouro
+            <input type="radio" name="color" onclick="changeBackgroundColor('lightblue')"> Azul Claro
+            <input type="radio" name="color" onclick="changeBackgroundColor('lightgreen')"> Verde Claro
+        </center>
+            <script>
+                function changeBackgroundColor(color) {
+                    document.body.style.backgroundColor = color;
+                }
+            </script>
+           
+    </div>
+</center>
+</body>
+
+</html>
